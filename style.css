@@ -1,0 +1,160 @@
+header{
+width: 100%;
+height: 100px;
+padding: 0 auto;
+margin: 0;
+
+
+}
+header #divleft{
+    float: left;
+    width: 70%;
+    height: 100px;
+    background:rgb(231, 8, 8);
+    box-sizing: border-box;
+    border: 0 5px solid rgb(231, 8, 8);
+
+
+}
+header #divright{
+    float: right;
+width: 30%;
+height: 100px;
+background: white;
+box-sizing: border-box;
+line-height: 80px;
+
+}
+
+header #divright p {
+    clear: both;
+    float: left;
+    text-align: justify;
+    padding-left: 30px;
+}
+
+header #divright img{
+    height: 80px;
+    border-radius: 50%;
+    float: right;
+}
+a{
+    text-decoration: none;
+}
+
+header #divleft a {
+
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    font-size: large;
+    font-weight: 400;
+
+}
+header #divleft il :hover{
+    color: black;
+background-color: rgb(255, 255, 255);
+}
+
+
+header #divleft ul {
+  list-style: none;
+  height: 100px;
+  margin: 0px;
+  text-align: center;
+  line-height: 100px;
+  padding:0 ;
+
+
+}
+
+header #divleft il {
+    height: 100px;
+    margin: 0px;
+  width: 33%;
+  display: inline-block;
+
+  }
+
+
+  nav{
+float: left;
+width: 33%;
+box-sizing: border-box;
+height: 400px;
+
+
+  }
+
+  section{
+float:right;
+width: 67%;
+box-sizing: border-box;
+height: 400px;
+background-color:  rgb(231, 83, 81);
+animation: boxer2 6s 0s infinite;
+
+  }
+#box{
+
+margin: auto;
+display:flex;
+justify-content: center;
+flex-wrap: wrap;
+align-items: center;
+flex-direction: column;
+
+
+}
+#box h2{
+padding: 0 30px ;
+display: block;
+
+
+}
+
+
+    nav img{
+width: 90%;
+margin: 20px;
+
+
+    }
+    
+    nav h2{
+        color: rgb(231, 83, 81);
+        text-align: center;
+        width: 100%;
+        animation: boxer1 2s infinite ;
+
+
+    }
+
+    #imagee{
+clear: both;
+padding-top: 60px;
+width: 100%;
+height: auto;
+display: grid;
+grid-template-columns: auto auto auto;
+gap: 6px;}
+    #imagee img{
+width: 100%;
+
+    }
+
+
+  @-webkit-keyframes boxer2 {
+    0%{background-color: rgb(231, 83, 81);}
+    0%{background-color: rgb(231, 126, 81);}
+    50%{background-color: rgb(231, 191, 81);}
+    75%{background-color: rgb(151, 231, 81);}
+    100%{background-color: rgb(231, 191, 81);}
+      }
+      @-webkit-keyframes boxer1 {
+        0%{color: rgb(231, 83, 81);}
+        0%{color: rgb(231, 126, 81);}
+        50%{color: rgb(231, 191, 81);}
+        75%{color: rgb(151, 231, 81);}
+        100%{color: rgb(231, 191, 81);}
+          }
